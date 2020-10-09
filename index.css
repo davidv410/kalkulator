@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+
+/*body {
+    background-color: rgb(31, 31, 31);
+}*/
+
+
+.container {
+    width: 380px;
+    background-color: rgb(38,38,38);
+    /*background-color: rgb(241, 241, 241);*/
+    line-height: 6;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;  
+    position:relative;
+    top: 100px;
+    
+}
+
+.result{
+    text-align: right;
+    font-size: 40px;
+    overflow-x: auto;
+    color: rgb(238, 238, 238);
+    /*color: rgb(44, 44, 44);*/
+    padding-right: 40px;
+    line-height:4;
+    height: 180px;
+  
+}
+
+/* height*/
+::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(38,38,38); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(46, 46, 46);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(54, 54, 54); 
+ 
+  }
+
+button {
+    width: 70px;
+    height:70px;
+    border-radius: 50px;
+    color: rgb(238, 238, 238);
+    background-color: rgb(38,38,38);
+    border: .1px solid rgb(48, 48, 48);
+    /*color: rgb(255, 129, 177);
+    background-color: rgb(240, 240, 240);
+    border: .1px solid rgb(231, 231, 231);*/
+    font-size: 2rem;
+    margin: 0px 10px;
+    box-shadow: 5px 5px 10px rgb(26, 26, 26);
+    /*box-shadow: 5px 5px 10px rgb(216, 216, 216);*/
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgb(38,38,38);
+    /*box-shadow: 0 0 0 1px rgb(216, 216, 216);*/
+}
+
+.nula {
+    width: 160px;
+    box-shadow:inset 5px 5px 15px  rgb(26, 26, 26);
+    /*box-shadow:inset 5px 5px 15px  rgb(195, 195, 195);*/
+    text-align: left;
+    padding-left: 30px;
+}
+
+.zuto {color: rgb(238,138,53);}
+.row-5 {padding-bottom: 5px;}
+
+
+
+
+
+
+
+
